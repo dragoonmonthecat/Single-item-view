@@ -1,0 +1,42 @@
+.top-container {
+    grid-area: top-area;
+}
+
+.bottom {
+    grid-area: bottom;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: stretch;
+
+}
+
+.bottom-left-container {
+    background: #54bfb3;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+}
+.bottom-right-container {
+    background: #75d9ce;
+    width: 300px;
+    border-bottom-right-radius: 10px;
+}
+
+.view-container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-areas: "top-area top-area"
+                         "bottom bottom";
+    -webkit-box-shadow: -2px -1px 33px -9px rgba(0,0,0,0.41);
+    -moz-box-shadow: -2px -1px 33px -9px rgba(0,0,0,0.41);
+    box-shadow: -2px -1px 33px -9px rgba(0,0,0,0.41);
+
+    border-radius: 10px;
+}
+
+
+
+
+
+
