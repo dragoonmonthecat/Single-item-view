@@ -116,7 +116,27 @@ h3, p {
 }
 
 
+@media only screen and (max-width: 600px) {
+    p {
+        line-height: 20px;
+    }
+    .view-container {
+        width: 400px;
+    }
 
+    .bottom {
+        flex-direction: column-reverse;
+    }
 
+    .bottom-left-container, .bottom-right-container {
+        width: 84%;
+    }
+    .bottom-right-container {
+        border-radius: 0px;
+    }
+    .bottom-left-container {
+        border-bottom-right-radius: 10px;
+    }
+}
 
 
